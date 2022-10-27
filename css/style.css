@@ -51,11 +51,11 @@ a::before {
     transition: .98s;
     color: #fff;
     font-family: 'Fira Code', monospace;
-    
+    cursor: pointer;
 }
 
 
-#button:hover {
+.button-primary:hover {
     /* transform: translate(5px, 5px); */
     box-shadow: 2px 2px 0px #000;
     border-radius: 4px;
@@ -101,14 +101,14 @@ a::before {
 
 .hero-title > h1 {
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 30px;
     color: var(--color-first);
     text-shadow: 4px 4px 0px #000;
 }
 
 .hero-title > h2 {
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
     text-shadow: 4px 4px 0px #000;
 }
 
@@ -117,6 +117,10 @@ a::before {
 .section-button {
     display: flex;
     justify-content: space-around;
+}
+
+.section-button>.button-primary {
+    font-size: 20px;
 }
 
 /**
